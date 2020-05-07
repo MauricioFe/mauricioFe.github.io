@@ -1,12 +1,14 @@
 body {
-    font-family: 'Lato','Open Sans', sans-serif;
+    font-family: 'Lato', 'Open Sans', sans-serif;
     background-color: #222222;
     font-size: 14px;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .topo {
     min-height: 730px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), url("../img/teste.jpg");
@@ -52,13 +54,13 @@ a{
     color: #00d6b4;
 }
 
-.header-text{
-margin-top: 250px;
-padding: 0 15%;
-position: relative;
+.header-text {
+    margin-top: 250px;
+    padding: 0 15%;
+    position: relative;
 }
 
-.titulo-principal{
+.titulo-principal {
     font-size: 3em;
     font-weight: 300;
     font-style: italic;
@@ -67,18 +69,48 @@ position: relative;
     margin-bottom: 20px;
 }
 
-.img-mauricio{
+.img-mauricio {
     border-radius: 90%;
     width: 150px;
     position: relative;
     left: 38%;
 }
 
-.formacoes{
+.formacoes {
     padding: 3em 0;
 }
-.titulo-formacao{
+
+.titulo-formacao {
     text-align: center;
     font-size: 2em;
-    
+    margin-bottom: 10%;
+}
+
+.card {
+    background: #EEEEEE;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(172, 172, 172, 0.2);
+}
+
+.icon-card {
+    width: 48px;
+    margin: 0 auto;
+}
+
+.card-content {
+    padding: 2px 16px;
+    color: black;
+    text-align: center;
 }
