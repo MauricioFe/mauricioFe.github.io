@@ -88,7 +88,7 @@ a {
 
 .card {
     background: #EEEEEE;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(155, 155, 155, 0.2);
     transition: 0.3s;
     display: inline-block;
     text-align: center;
@@ -100,8 +100,12 @@ a {
     border-radius: 10px;
 }
 
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(172, 172, 172, 0.2);
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(172, 172, 172, 0.3);
+}
+
+.card:hover .icon-card {
+    width: 51px;
 }
 
 .icon-card {
@@ -113,4 +117,20 @@ a {
     padding: 2px 16px;
     color: black;
     text-align: center;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+footer div{
+    margin: 5% 0 0 0;
+}
+.logo-footer{
+    font-size: 22px;
+    color: #ffffff;
+}
+footer p{
+    padding: 10px;
+    color: #999999;
 }
