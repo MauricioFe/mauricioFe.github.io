@@ -8,11 +8,11 @@ a{
     text-decoration: none;
 }
 .topo {
+    min-height: 730px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), url("../img/teste.jpg");
-    background-position: 0px 0px, 38% 40%;
+    background-position: 0px 0px, 38% 45%;
     background-size: cover;
     background-repeat: repeat, no-repeat;
-    min-height: 540px;
 }
 
 .logo {
@@ -70,7 +70,15 @@ position: relative;
 .img-mauricio{
     border-radius: 90%;
     width: 150px;
-    position: absolute;
-    left: 40%;
+    position: relative;
+    left: 38%;
+}
 
+.formacoes{
+    padding: 3em 0;
+}
+.titulo-formacao{
+    text-align: center;
+    font-size: 2em;
+    
 }
