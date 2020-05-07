@@ -119,18 +119,60 @@ a {
     text-align: center;
 }
 
-footer{
+footer {
     padding: 20px;
     text-align: center;
 }
-footer div{
+
+footer div {
     margin: 5% 0 0 0;
 }
-.logo-footer{
+
+.logo-footer {
     font-size: 22px;
     color: #ffffff;
 }
-footer p{
+
+footer p {
     padding: 10px;
     color: #999999;
+}
+
+@media screen and (max-width: 480px) {
+    .topo{
+        min-height:580px ;
+    }
+    .m-container {
+        width: auto;
+    }
+    .nav-list{
+        position: static;
+        text-align: center;
+        margin: 5em auto auto 0;
+    }
+    .logo {
+        left: 28%;
+    }
+    .header-text{
+        margin: 100px 0 0 0;
+    }
+    .titulo-principal{
+        font-size: 2em;
+        margin-top: auto;
+    }
+    .img-mauricio{
+        left: 22%;
+    }
+    .card{
+        display: block;
+        margin: 2em auto;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:321px){
+    .nav-list li{
+        margin: 0 10px;
+    }
 }
