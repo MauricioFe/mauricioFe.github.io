@@ -55,6 +55,7 @@ a{
 .header-text{
 margin-top: 250px;
 padding: 0 15%;
+position: relative;
 }
 
 .titulo-principal{
@@ -63,4 +64,13 @@ padding: 0 15%;
     font-style: italic;
     line-height: 53px;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-mauricio{
+    border-radius: 90%;
+    width: 150px;
+    position: absolute;
+    left: 40%;
+
 }
