@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato','Open Sans', sans-serif;
+    background-color: #222222;
+    font-size: 14px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.topo {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), url("../img/teste.jpg");
+    background-position: 0px 0px, 38% 40%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    min-height: 540px;
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    color: white;
+    padding: 15px;
+    position: relative;
+    top: 40px;
+}
+
+.m-container {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-list {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.nav-list li {
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.nav-link {
+    color: #EEEEEE;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-link:hover {
+    color: #00d6b4;
+}
+
+.header-text{
+margin-top: 250px;
+padding: 0 15%;
+}
+
+.titulo-principal{
+    font-size: 3em;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 53px;
+    text-align: center;
+}
