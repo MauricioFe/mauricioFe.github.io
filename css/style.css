@@ -140,7 +140,7 @@ footer p {
 
 @media screen and (max-width: 480px) {
     .topo{
-        min-height:580px ;
+        min-height:630px ;
     }
     .m-container {
         width: auto;
