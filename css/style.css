@@ -151,17 +151,20 @@ footer p {
         margin: 5em auto auto 0;
     }
     .logo {
-        left: 28%;
+        left: 26%;
     }
     .header-text{
         margin: 100px 0 0 0;
+        padding: 0 5%;
     }
     .titulo-principal{
-        font-size: 2em;
+        font-size: 30px;
+        line-height: 43px;
         margin-top: auto;
+        text-align: center;
     }
     .img-mauricio{
-        left: 22%;
+        left: 29%;
     }
     .card{
         display: block;
@@ -174,5 +177,16 @@ footer p {
 @media screen and (max-width:321px){
     .nav-list li{
         margin: 0 10px;
+        
     }
+    .titulo-principal{
+        font-size: 26px;
+        line-height: 43px;
+        margin-top: auto;
+        text-align: center;
+    }
+    .img-mauricio{
+        left: 25%;
+    }
+    
 }
