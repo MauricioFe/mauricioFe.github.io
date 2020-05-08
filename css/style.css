@@ -11,7 +11,7 @@ a {
 
 .topo {
     min-height: 730px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), url("../img/teste.jpg");
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), url("../img/background.jpg");
     background-position: 0px 0px, 38% 45%;
     background-size: cover;
     background-repeat: repeat, no-repeat;
