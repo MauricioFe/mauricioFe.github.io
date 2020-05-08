@@ -207,6 +207,9 @@ footer p {
         margin-top: auto;
         text-align: center;
     }
+    .titulo-sessao{
+        margin:0 5px;
+    }
     .img-mauricio {
         left: 29%;
     }
