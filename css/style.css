@@ -1,8 +1,9 @@
 body {
-    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-family: 'Lato',  sans-serif;
     background-color: #222222;
     font-size: 14px;
     color: white;
+    font-weight: 300;
 }
 
 a {
@@ -24,6 +25,7 @@ a {
     padding: 15px;
     position: relative;
     top: 40px;
+    transition: 2s;
 }
 
 .m-container {
@@ -41,6 +43,7 @@ a {
 .nav-list li {
     margin: 0 20px;
     display: inline-block;
+    transition: 2s;
 }
 
 .nav-link {
@@ -61,6 +64,7 @@ a {
 }
 
 .titulo-principal {
+    font-family: 'Lato', sans-serif;
     font-size: 3em;
     font-weight: 300;
     font-style: italic;
@@ -76,16 +80,55 @@ a {
     left: 38%;
 }
 
-.formacoes {
+.titulo-sessao {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+
+.sobre {
     padding: 3em 0;
 }
 
-.titulo-formacao {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10%;
+.texto-sobre {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2%;
 }
 
+.texto-sobre p {
+    font-family: 'Lato', sans-serif;
+    color: #cccaca;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.img-sobre {
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 0 0 3%;
+}
+
+.imagem-sobre {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.3);
+}
+
+.formacoes {
+    padding: 3em 0;
+    min-height:480px ;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), linear-gradient(0deg, rgba(0, 0, 0, 0.1), #222222),    url("../img/formacao.jpg");
+    background-repeat:repeat  no-repeat;
+    background-size: cover;
+}
+.linha{
+    margin: 2em auto;
+}
 .card {
     background: #EEEEEE;
     box-shadow: 0 4px 8px 0 rgba(155, 155, 155, 0.2);
@@ -110,6 +153,7 @@ a {
 
 .icon-card {
     width: 48px;
+    height: 48px;
     margin: 0 auto;
 }
 
@@ -139,13 +183,13 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
-    .topo{
-        min-height:630px ;
+    .topo {
+        min-height: 630px;
     }
     .m-container {
         width: auto;
     }
-    .nav-list{
+    .nav-list {
         position: static;
         text-align: center;
         margin: 5em auto auto 0;
@@ -153,40 +197,47 @@ footer p {
     .logo {
         left: 26%;
     }
-    .header-text{
+    .header-text {
         margin: 100px 0 0 0;
         padding: 0 5%;
     }
-    .titulo-principal{
+    .titulo-principal {
         font-size: 30px;
         line-height: 43px;
         margin-top: auto;
         text-align: center;
     }
-    .img-mauricio{
+    .img-mauricio {
         left: 29%;
     }
-    .card{
+    .texto-sobre{
+        display: block;
+        margin: 1em auto;
+        width: 90%;
+    }
+    .img-sobre{
+        display: block;
+        margin: 1em auto;
+        width: 90%;
+    }
+    .card {
         display: block;
         margin: 2em auto;
         width: 70%;
     }
-
 }
 
-@media screen and (max-width:321px){
-    .nav-list li{
+@media screen and (max-width:321px) {
+    .nav-list li {
         margin: 0 10px;
-        
     }
-    .titulo-principal{
+    .titulo-principal {
         font-size: 26px;
         line-height: 43px;
         margin-top: auto;
         text-align: center;
     }
-    .img-mauricio{
+    .img-mauricio {
         left: 25%;
     }
-    
 }
