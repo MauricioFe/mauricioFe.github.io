@@ -169,6 +169,46 @@ a {
     width: 100%;
 }
 
+.lista-contato {
+    display: inline-block;
+    width: 22%;
+    padding: 0 1.5%;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin: 2em 0.5em;
+    border-radius: 10px;
+}
+
+.lista-contato:hover {
+    border-color: #00d6b4;
+}
+
+.lista-contato:hover h3 {
+    transform: scale(1.2);
+}
+
+.lista-contato:hover .img-lista-contato {
+    transform: scale(1.2);
+}
+
+.lista-contato a:hover {
+    color: #00d6b4;
+}
+
+.lista-contato li {
+    text-align: center;
+    margin: 2em auto;
+}
+
+.img-lista-contato {
+    width: 48px;
+}
+
+.lista-contato a {
+    cursor: pointer;
+    color: #cccccc;
+}
+
 .img-contato {
     width: 45%;
     display: inline-block;
@@ -333,6 +373,11 @@ footer p {
     }
     .contato .titulo-sessao {
         margin-bottom: 1.3em;
+    }
+    .lista-contato{
+        display: block;
+        width: 90%;
+        margin: 2em auto;
     }
     .caixa-contato {
         width: 90%;
