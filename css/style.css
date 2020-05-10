@@ -336,6 +336,7 @@ footer p {
     }
     .caixa-contato {
         width: 90%;
+        margin: 0 20px;
     }
     .caixa-contato p {
         margin: 10px 0 0 0;
@@ -345,6 +346,7 @@ footer p {
     }
     .button {
         width: 44%;
+        margin-right: auto;
     }
     .img-contato {
         display: none;
