@@ -298,6 +298,7 @@ label {
     font-weight: 300;
     float: right;
     cursor: pointer;
+    transition: 1s;
 }
 
 .button:hover {
@@ -323,6 +324,7 @@ footer div {
 footer p {
     padding: 10px;
     color: #999999;
+    line-height: 20px;
 }
 
 @media screen and (max-width: 480px) {
