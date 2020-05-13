@@ -8,6 +8,10 @@ body {
 
 a {
     text-decoration: none;
+    color:#00d6b4;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 .topo {
@@ -55,6 +59,7 @@ a {
 
 .nav-link:hover {
     color: #00d6b4;
+    text-decoration: none;
 }
 
 .header-text {
@@ -193,6 +198,7 @@ a {
 
 .lista-contato a:hover {
     color: #00d6b4;
+    text-decoration: none;
 }
 
 .lista-contato li {
