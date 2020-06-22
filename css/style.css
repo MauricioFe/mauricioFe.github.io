@@ -145,7 +145,7 @@ a {
 
 .card {
     background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), #b9b9b9), url('../img/fundo-card.jpg');
-    background-position:center;
+    background-position: center;
     box-shadow: 0 4px 8px 0 rgba(155, 155, 155, 0.2);
     transition: 0.3s;
     text-align: center;
@@ -154,8 +154,7 @@ a {
     border-radius: 10px;
 }
 
-
-.card-content h4,p {
+.card-content h4, p {
     font-weight: 500;
 }
 
@@ -356,19 +355,17 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
-    .topo {
-        min-height: 630px;
-    }
     .m-container {
-        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
     }
     .nav-list {
-        position: static;
-        text-align: center;
-        margin: 5em auto auto 0;
+        margin: 2em auto;
+        font-size: 1.2em;
     }
-    .logo {
-        left: 26%;
+    .topo {
+        min-height: 630px;
     }
     .header-text {
         margin: 100px 0 0 0;
@@ -383,29 +380,22 @@ footer p {
     .titulo-sessao {
         margin: 0 5px;
     }
-    .img-mauricio {
-        left: 29%;
-    }
     .texto-sobre {
-        display: block;
         margin: 1em auto;
         width: 90%;
     }
     .img-sobre {
-        display: block;
         margin: 1em auto;
         width: 90%;
     }
     .card {
-        display: block;
-        margin: 2em auto;
+        margin: 2em auto 0px;
         width: 70%;
     }
     .contato .titulo-sessao {
         margin-bottom: 1.3em;
     }
     .lista-contato {
-        display: block;
         width: 90%;
         margin: 2em auto;
     }
@@ -419,24 +409,34 @@ footer p {
     .subtitulo-contato {
         margin: 1em 0 0 0;
     }
-    .button {
-        width: 44%;
-        margin-right: auto;
-    }
     .img-contato {
         display: none;
+    }
+    footer.m-container{
+        margin-top: 2em;
     }
 }
 
 @media screen and (max-width:321px) {
-    .nav-list li {
-        margin: 0 10px;
+    .m-container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .nav-list {
+        margin: 2em auto;
     }
     .titulo-principal {
         font-size: 26px;
         line-height: 43px;
         margin-top: auto;
         text-align: center;
+    }
+    .titulo-sessao {
+        font-size: 26px;
+    }
+    .texto-sobre p {
+        line-height: 20px;
+        font-size: 0.9em;
     }
     .img-mauricio {
         left: 25%;
