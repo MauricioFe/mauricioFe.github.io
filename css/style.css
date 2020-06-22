@@ -338,7 +338,7 @@ label {
     border: #222222;
 }
 
-footer {
+footer.m-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -414,9 +414,6 @@ footer p {
     }
     .img-contato {
         display: none;
-    }
-    footer.m-container{
-        margin-top: 2em;
     }
 }
 
