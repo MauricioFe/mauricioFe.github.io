@@ -35,7 +35,7 @@ a {
     align-items: center;
 }
 
-.topo .m-container{
+.topo .m-container {
     padding-top: 2em;
 }
 
@@ -138,17 +138,25 @@ a {
 .linha {
     margin: 2em auto;
 }
-#skills .m-container{
+
+#skills .m-container {
     justify-content: space-around;
 }
+
 .card {
-    background: #EEEEEE;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), #b9b9b9), url('../img/fundo-card.jpg');
+    background-position:center;
     box-shadow: 0 4px 8px 0 rgba(155, 155, 155, 0.2);
     transition: 0.3s;
     text-align: center;
     width: 30%;
     padding: 30px 20px;
     border-radius: 10px;
+}
+
+
+.card-content h4,p {
+    font-weight: 500;
 }
 
 .card:hover {
@@ -218,7 +226,8 @@ a {
 .img-contato {
     width: 45%;
 }
-.container-contato{
+
+.container-contato {
     display: flex;
     width: 100%;
     max-width: 1200px;
@@ -226,9 +235,10 @@ a {
     justify-content: space-between;
 }
 
-.img-contato{
+.img-contato {
     width: 50%;
 }
+
 .imagem-contato {
     width: 100%;
     height: 650px;
@@ -237,10 +247,11 @@ a {
 }
 
 .caixa-contato {
-    width: 45%;
+    width: 50%;
     border: solid #ffffff 1px;
     height: 650px;
     border-radius: 10px;
+    margin: 0 0 0 2em;
 }
 
 .caixa-contato:hover {
@@ -269,9 +280,11 @@ form {
     flex-direction: column;
     justify-content: space-around;
 }
-form fieldset{
-    width:100%;
+
+form fieldset {
+    width: 100%;
 }
+
 label {
     margin: 2em 0 2em;
     text-transform: uppercase;
@@ -295,12 +308,16 @@ label {
     border-color: #00d6b4;
     outline: 0
 }
-.div-button{
-   margin: 0 0 0 auto;
+
+.div-button {
+    display: flex;
+    justify-content: flex-end;
 }
+
 .button {
     background: transparent;
-    width: 100%;
+    width: 150px;
+    padding: 1em 0;
     text-align: center;
     font-family: 'Leto', sans-serif;
     text-transform: uppercase;
@@ -310,6 +327,7 @@ label {
     font-weight: 300;
     cursor: pointer;
     transition: 1s;
+    outline: none;
 }
 
 .button:hover {
@@ -319,12 +337,11 @@ label {
 }
 
 footer {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-}
-
-footer div {
-    margin: 5% 0 0 0;
+    margin: 3em auto 0;
 }
 
 .logo-footer {
