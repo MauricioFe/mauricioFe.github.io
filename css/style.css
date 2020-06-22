@@ -154,6 +154,7 @@ a {
     width: 30%;
     padding: 30px 20px;
     border-radius: 10px;
+    margin: 2em 0 0;
 }
 
 .card-content h4, p {
