@@ -439,7 +439,12 @@ footer p {
         line-height: 20px;
         font-size: 0.9em;
     }
-    .img-mauricio {
-        left: 25%;
+    .lista-contato {
+        width: 90%;
+        margin: 2em auto;
+    }
+    .caixa-contato {
+        width: 90%;
+        margin: 0 auto;
     }
 }
