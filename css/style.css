@@ -8,10 +8,7 @@ body {
 
 a {
     text-decoration: none;
-    color:#00d6b4;
-}
-a:hover{
-    text-decoration: underline;
+    color: #00d6b4;
 }
 
 .topo {
@@ -27,26 +24,23 @@ a:hover{
     font-size: 2em;
     color: white;
     padding: 15px;
-    position: relative;
-    top: 40px;
-    transition: 1s;
 }
 
 .m-container {
-    width: 940px;
+    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-list {
-    position: absolute;
-    top: 60px;
-    right: 0;
+    display: flex;
 }
 
 .nav-list li {
     margin: 0 20px;
-    display: inline-block;
     transition: 2s;
 }
 
@@ -65,7 +59,10 @@ a:hover{
 .header-text {
     margin-top: 250px;
     padding: 0 15%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-principal {
@@ -81,25 +78,28 @@ a:hover{
 .img-mauricio {
     border-radius: 90%;
     width: 150px;
-    position: relative;
-    left: 38%;
 }
 
 .titulo-sessao {
     text-align: center;
     font-size: 3em;
     margin-bottom: 5%;
+    font-weight: 300;
+    font-style: italic;
 }
 
-.sobre {
+#sobre {
     padding: 3em 0;
 }
 
+#sobre .m-container {
+    align-items: initial;
+    justify-content: space-around;
+}
+
 .texto-sobre {
-    width: 45%;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 2%;
+    width: 60%;
+    align-self: baseline;
 }
 
 .texto-sobre p {
@@ -107,15 +107,14 @@ a:hover{
     color: #cccaca;
     font-size: 1em;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 25px;
     text-align: justify;
 }
 
 .img-sobre {
-    width: 45%;
-    display: inline-block;
-    box-sizing: border-box;
+    width: 50%;
     margin: 0 0 0 3%;
+    flex-grow: 3;
 }
 
 .imagem-sobre {
@@ -382,7 +381,7 @@ footer p {
     .contato .titulo-sessao {
         margin-bottom: 1.3em;
     }
-    .lista-contato{
+    .lista-contato {
         display: block;
         width: 90%;
         margin: 2em auto;
