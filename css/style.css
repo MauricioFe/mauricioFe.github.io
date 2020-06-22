@@ -33,6 +33,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .topo .m-container {
@@ -99,6 +100,7 @@ a {
 #sobre .m-container {
     align-items: initial;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .texto-sobre {
