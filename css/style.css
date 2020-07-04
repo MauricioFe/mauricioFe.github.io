@@ -62,7 +62,7 @@ a {
 }
 
 .header-text {
-    margin-top: 250px;
+    margin-top: 200px;
     padding: 0 15%;
     display: flex;
     flex-direction: column;
@@ -81,8 +81,9 @@ a {
 }
 
 .img-mauricio {
-    border-radius: 90%;
-    width: 150px;
+    border-radius: 50% !important;
+    width: 180px;
+    
 }
 
 .titulo-sessao {
