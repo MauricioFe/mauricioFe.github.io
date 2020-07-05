@@ -47,18 +47,20 @@
     #menu-superior ul {
         width: 100%;
         flex-direction: column;
+  
     }
     #menu-superior ul li {
         margin: 15px 0;
         text-align: center;
     }
     #menu-superior {
-        display: none;
+        display: none;      
     }
     #menu-superior .logo {
         display: none;
     }
     .ativo {
         display: flex !important;
+        transition: 0.5s linear;
     }
 }
