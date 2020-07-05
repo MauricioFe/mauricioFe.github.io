@@ -389,6 +389,14 @@ footer p {
         margin: 0 auto;
         width: auto;
     }
+    .menu-fixed{
+        position: initial;
+        height: initial;
+    }
+    .nav-color{
+        height: initial;
+        position: initial;
+    }
     .nav-list {
         margin: 2em auto;
         font-size: 1.2em;
