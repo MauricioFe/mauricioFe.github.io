@@ -395,7 +395,7 @@ footer p {
     }
     .nav-color{
         height: initial;
-        background: rgb(0,0,0);
+        background: rgb(0,0,0,0.8);
     }
     .nav-list {
         margin: 2em auto;
