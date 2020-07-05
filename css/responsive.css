@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 480px) {
+    .m-container {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: auto;
+    }
+    .menu-fixed{
+        position: initial;
+        height: initial;
+    }
+    .nav-color{
+        height: initial;
+        background: rgb(0,0,0,0.8);
+    }
+    .nav-list {
+        margin: 2em auto;
+        font-size: 1.2em;
+    }
+    .topo {
+        min-height: 630px;
+    }
+    .header-text {
+        margin: 100px 0 0 0;
+        padding: 0 5%;
+    }
+    .titulo-principal {
+        font-size: 30px;
+        line-height: 43px;
+        margin-top: auto;
+        text-align: center;
+    }
+    .titulo-sessao {
+        margin: 0 5px;
+    }
+    .texto-sobre {
+        margin: 1em auto;
+        width: 90%;
+    }
+    .img-sobre {
+        margin: 1em auto;
+        width: 90%;
+    }
+    .card {
+        margin: 2em auto 0px;
+        width: 80%;
+    }
+    .contato .titulo-sessao {
+        margin-bottom: 1.3em;
+    }
+    .lista-contato {
+        width: 80%;
+        margin: 2em auto;
+    }
+    .caixa-contato {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .caixa-contato p {
+        margin: 10px 0 0 0;
+    }
+    .subtitulo-contato {
+        margin: 1em 0 0 0;
+    }
+    .img-contato {
+        display: none;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .m-container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .nav-list {
+        margin: 2em auto;
+    }
+    .titulo-principal {
+        font-size: 26px;
+        line-height: 43px;
+        margin-top: auto;
+        text-align: center;
+    }
+    .titulo-sessao {
+        font-size: 26px;
+    }
+    .texto-sobre p {
+        line-height: 20px;
+        font-size: 0.9em;
+    }
+    .lista-contato {
+        width: 90%;
+        margin: 2em auto;
+    }
+    .caixa-contato {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

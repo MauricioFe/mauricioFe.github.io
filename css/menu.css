@@ -16,6 +16,28 @@
     font-size: 28px;
 }
 
+.menu-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    align-items: center;
+    height: 90px;
+    padding: 0 !important;
+}
+
+.nav-color {
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 90px;
+    padding: 0 !important;
+    transition: background 0.5s linear;
+}
+
+
 @media (max-width:768px) {
     .toggle {
         display: flex;
