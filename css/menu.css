@@ -1,0 +1,42 @@
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: transparent;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+.toggle i {
+    padding: 15px;
+}
+
+.toggle a {
+    font-size: 28px;
+}
+
+@media (max-width:768px) {
+    .toggle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #menu-superior ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    #menu-superior ul li {
+        margin: 15px 0;
+        text-align: center;
+    }
+    #menu-superior {
+        display: none;
+    }
+    #menu-superior .logo {
+        display: none;
+    }
+    .ativo {
+        display: flex !important;
+    }
+}
