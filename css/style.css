@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     background-color: #222222;
@@ -83,7 +87,6 @@ a {
 .img-mauricio {
     border-radius: 50% !important;
     width: 180px;
-    
 }
 
 .titulo-sessao {
@@ -356,6 +359,27 @@ footer p {
     padding: 10px;
     color: #999999;
     line-height: 20px;
+}
+
+.menu-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    align-items: center;
+    height: 90px;
+    padding: 0 !important;
+}
+
+.nav-color {
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 90px;
+    padding: 0 !important;
+    transition: background 0.5s linear;
 }
 
 @media screen and (max-width: 480px) {
