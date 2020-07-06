@@ -97,5 +97,47 @@ a {
     font-style: italic;
 }
 
+#frases{
+    padding: 3em 0;
+    width: 100%;
+    background: #343a40;
+}
 
+#frases .m-container{
+    max-width: 600;
+    justify-content: initial;
+    flex-direction: column;
+    text-align: center;
+}
+
+#frases .m-container h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    position: relative;
+}
+#frases .m-container h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: ivory;
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    left:32%;
+    margin: 0 auto;
+    
+}
+.titulo-frases{
+    height: 104px;
+}
+
+.frase{
+    font-size: 1.5em;
+    width:80%;
+    line-height: 36px;
+}
 
