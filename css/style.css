@@ -139,5 +139,10 @@ a {
     font-size: 1.5em;
     width:80%;
     line-height: 36px;
+    font-weight: bold;
 }
 
+.frase p:last-child{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
