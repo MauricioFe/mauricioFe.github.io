@@ -127,7 +127,7 @@ a {
     position: absolute;
     bottom: 0;
     right: 60%;
-    left:32%;
+    left:35%;
     margin: 0 auto;
     
 }
@@ -140,6 +140,8 @@ a {
     width:80%;
     line-height: 36px;
     font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .frase p:last-child{
