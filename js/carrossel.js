@@ -28,7 +28,7 @@ function avançarSlide(currentSlide) {
     }
 }
 
-//Controls the current slide and resets interval if needed
+//Lógica para tratar o click dos marcadores e colocar a frase clicada a partir das bolinhas
 function currentSlide(currentSlide) {
     clearInterval(myTimer);
     myTimer = setInterval(function () { avançarSlide(currentSlide + 1) }, 4000);
