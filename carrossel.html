@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin-left: 100%;
+
+            -webkit-transition: margin-left 500ms ease-in;
+            -moz-transition: margin-left 500ms ease-in;
+            -o-transition: margin-left 500ms ease-in;
+            transition: margin-left 500ms ease-in;
+        }
+
+        div {
+            overflow: hidden;
+            position: relative;
+            width: 350px;
+            height: 200px;
+        }
+
+        .ativa {
+            margin-left: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img src="https://images.unsplash.com/photo-1593378026053-b64902ae6f00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="ativa">
+        <img
+            src="https://images.unsplash.com/photo-1593642553102-d18ca7045314?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+        <img
+            src="https://images.unsplash.com/photo-1584219081276-d8d17e977e12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+    </div>
+
+    <script>
+        var proximaImagem = 1;//guarda a posição da imagem que deve entrar na tela, no caso é a imagem da posição 1, pois a imagem 0 já está visível na tela
+        var zIndexAtual = 0;//usado para criar um aumento progressivo no z-index
+        var imagens = document.getElementById("container").children;//pega todos os nodos filhos da div #container, ou seja, nossa coleção de imagens
+
+        function avancarImagem() {
+            imagem = imagens[proximaImagem];//armazena a proxima imagem na fila em uma variável
+            imagem.style.zIndex = ++zIndexAtual;//aumenta o índice do z-index e atribui à próxima imagem da fila
+            imagem.style.marginLeft = "0%";//reseta a margem da imagem, fazendo ela entrar na tela
+
+            proximaImagem++;//ajusta o índice que aponta a próxima imagem
+
+            //caso o índice tenha alcançado o fim da fila, resetá-lo
+            if (proximaImagem >= imagens.length) {
+                proximaImagem = 0;
+            }
+
+            //aqui está o truque para fazer com que as imagens que já passaram voltem para fora da área visível
+            //o tempo de intervalo está aqui para que isso ocorra depois que a imagem ficou atrás da nova imagem da fila
+            setTimeout(resetarImagens, 500);
+        }
+
+        function resetarImagens() {
+            imagemVisivel = proximaImagem - 1;
+
+            //se o índice alcançou o início da fila, voltar para o final
+            if (imagemVisivel < 0) {
+                //o menos 1 está aqui pois o parâmetro length retorna o total de itens no array (no caso, 3)
+                //precisamos da posição do último item do array (sempre é length-1)
+                imagemVisivel = imagens.length - 1;
+            }
+
+            //retorna todas as imagens à sua posição original, menos a imagem visível
+            for (var i = 0; i < imagens.length; i++) {
+                if (i != imagemVisivel) {
+                    imagens[i].style.marginLeft = "100%";
+                }
+            }
+        }
+
+        var intervalo = setInterval(avancarImagem, 2000);
+    </script>
+</body>
+
+</html>
