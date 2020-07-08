@@ -154,24 +154,6 @@ a {
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* .frase {
-    background: #343a40;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-left: 100%;
-    -webkit-transition: margin-left 500ms ease-in-out;
-    -moz-transition: margin-left 500ms ease-in-out;
-    -o-transition: margin-left 500ms ease-in-out;
-    transition: margin-left 500ms ease-in-out;
-}
-
-#slider {
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
-    position: relative;
-} */
 
 #slider {
     max-width: 1000px;
