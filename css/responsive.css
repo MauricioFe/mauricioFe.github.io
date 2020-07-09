@@ -37,6 +37,7 @@
     .texto-sobre {
         margin: 1em auto;
         width: 90%;
+        font-size: 1em;
     }
     .img-sobre {
         margin: 1em auto;
@@ -87,7 +88,7 @@
     }
     .texto-sobre p {
         line-height: 20px;
-        font-size: 0.9em;
+        font-size: 1em;
     }
     .lista-contato {
         width: 90%;
