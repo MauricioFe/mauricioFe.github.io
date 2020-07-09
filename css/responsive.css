@@ -12,7 +12,7 @@
     }
     .nav-color{
         height: initial;
-        background: rgb(0,0,0,0.8);
+        background: rgb(0,0,0);
     }
     .nav-list {
         margin: 2em auto;
